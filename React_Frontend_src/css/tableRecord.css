@@ -1,0 +1,37 @@
+
+#container{
+    overflow-x: hidden;
+}
+Table{
+    margin: 12vh 0 1vh 1vw;  
+    overflow-x: hidden;
+}
+
+#TableHeadCell{
+    text-align: left;
+    color : #97A1A9;
+    font-size: 18px;
+    border-bottom-color: black;
+    background-color: #2F4451;
+}
+.TableBodyCell{
+    text-align: left;
+    padding-left: 0.8vw;
+    color : #FFFFFF;
+    border-bottom : none;   
+}
+#tableRowUnchecked:nth-child(even){
+    background-color: #283A46 !important;
+}
+#tableRowUnchecked:nth-child(odd){
+    background-color: #2F4451 !important;   
+}
+#tableRowChecked{    
+    background-color: #2A5368 !important;
+}
+.checkboxStyle .MuiSvgIcon-root{
+    color : #97A1A9 ;    
+}
+.checkboxStyle.checked .MuiSvgIcon-root{
+    color : #14AFF1 ;    
+}
